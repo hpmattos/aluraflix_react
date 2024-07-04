@@ -1,0 +1,115 @@
+.editvideo{
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    background-color: #03122fc2;
+    z-index: 9999;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 10%;
+    
+}
+.editvideo h2{
+    font-size: 15pt;
+    color: #2271D1;
+    width: 90%;
+    text-align: center;
+}
+
+.formulario{
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    opacity: 1;
+    border: 2px solid #1f9fff;
+    margin: auto;
+    background-color: #03122f;
+    border-radius: 5px;
+    scroll-behavior: smooth;
+}
+
+.formulario div:not(.grupo_input){
+    width: 100%;
+    padding: 0.2em 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: flex-start;
+    align-items: stretch;
+}
+
+.formulario input, .formulario select{
+    height: 30px;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+    width: 100%;
+    border: 0.5px solid white;
+    background-color: inherit;
+    color: white;
+    font-size: 10pt;
+    
+}
+
+.formulario option{
+    background-color: #262626;
+}
+
+.formulario input::placeholder, .formulario select::placeholder, .formulario textarea::placeholder{
+  color: white;
+  font-size: 8pt;
+}
+.formulario textarea{
+    width: 100%;
+    height: 20vh;
+    background-color: inherit;
+    color: white;
+    border: 1px solid white;
+    font-size: 10pt;
+}
+
+
+.formulario label{
+    color: white;
+    margin: 0.2rem;
+    font-size: 10pt;
+}
+
+.grupo_input{
+  display: block;
+  width: 100%;
+  padding: 0 1em;
+}
+
+.div_botoes_acao{
+    display: flex !important;
+    flex-direction: row !important;
+    align-content: space-between !important;
+}
+
+.fechar{
+    width: 28px;
+    height: 28px;
+    border-radius: 100px;
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+
+.div_titulo{
+    display: flex!important;
+    flex-direction: row!important;
+    align-content: space-between!important;
+}
+
+
+@media screen and (max-width: 500px) {
+    .formulario{
+        width: 90vw;
+    } 
+}

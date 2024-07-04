@@ -1,0 +1,49 @@
+.footer{
+    width: 100%;
+    display: block;
+    height: 100%;
+    background-color: black;
+    padding: 1em;
+    min-height: 40px;
+    border-top: 1px solid #2d6aa8;
+    box-shadow: -1px -1px 4px 2px #2d6aa8;
+    margin-top: 1em;    
+}
+.footer a{
+    display: none;
+}
+.footer img{
+    width: 200px;
+    height: auto;
+    margin: auto;
+}
+.logo{
+  width: 200px;
+  height: 100px;
+}
+.novovideo{
+
+}
+
+.novovideo img{
+    width: 58px;
+    height: 58px;
+}
+@media screen and (max-width: 500px) {
+    .footer{
+        position: fixed;
+        bottom: 0;
+        height: 5em;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .footer a{
+        display: block;
+    }
+
+    .logo{
+        display: none;
+    }
+}

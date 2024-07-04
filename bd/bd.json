@@ -1,0 +1,53 @@
+{
+  "videos": [
+    {
+      "id": "6f0d",
+      "titulo": "Curso de Java #01 - História do Java",
+      "urlcapa": "https://i.ytimg.com/vi/sTX0UEplF54/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCXOSAzxyd4L-_hNzDkttIldOKh5w",
+      "url": "https://www.youtube.com/watch?v=sTX0UEplF54&list=PLHz_AreHm4dkI2ZdjTwZA4mPMxWTfNSpR",
+      "categoria": "1",
+      "descricao": "Cursos em vídeo-aulas totalmente gratuitos, criados pelo Professor Gustavo Guanabara. "
+    },
+    {
+      "id": "cf4f",
+      "titulo": "Exercícios de Java #02 - Curso de Java para Iniciantes",
+      "urlcapa": "https://i.ytimg.com/vi/v_ZCtgwbS3o/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCcNwBhEsVwu0E5O98LkzdkVqS6wA",
+      "url": "https://www.youtube.com/watch?v=bIXDystGxj0&list=PLHz_AreHm4dkI2ZdjTwZA4mPMxWTfNSpR&index=4",
+      "categoria": "1",
+      "descricao": "Cursos em vídeo-aulas totalmente gratuitos, criados pelo Professor Gustavo Guanabara. "
+    },
+    {
+      "id": "f57b",
+      "titulo": "Como usar o Android Studio - Guia Completo pra Iniciantes (AULÃO)",
+      "urlcapa": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYqPshtcc72LfIovmL7yYsotZbN8e67Ck10WVIux1e6WjjkdgCFH5_KWRB9RfBKogO6vJgt1peMuuqEyUBsMv20xohGPyZFOBiuLU-Rn27Eq33biA0lUObGvd8ToAnNuygNSoRBpBmltRADd0vpaMXGklP7L_xB9LqIlZ1fjSN6vK1i2vc_0KP-aTo/w1200-h630-p-k-no-nu/Android%20Studio%20-%20Social.png",
+      "url": "https://www.youtube.com/watch?v=3_s0tkM948c",
+      "categoria": "3",
+      "descricao": "Nesse vídeo eu vou te ensinar a usar o Android Studio da forma correta, aprenda a trabalhar com essa IDE de desenvolvimento de aplicações Android. Tutorial focado pro público iniciante.\n"
+    },
+    {
+      "id": "a10c",
+      "titulo": "Curso de React Para Iniciantes",
+      "urlcapa": "https://i.ytimg.com/an_webp/hd2B7XQAFls/mqdefault_6s.webp?du=3000&sqp=CM20nLQG&rs=AOn4CLC_sRN-hcIcYhkSW0e2Ekd8O5GEXA",
+      "url": "https://www.youtube.com/watch?v=hd2B7XQAFls",
+      "categoria": "2",
+      "descricao": "Curso de React Para Iniciantes. Prepare-se para dar os primeiros passos no mundo incrível do React! Neste curso de React de 1 hora, você aprenderá os conceitos básicos desta poderosa biblioteca de código aberto e estará pronto para criar projetos incríveis, incluindo componentes, JSX, estado e props, e rotas, de forma clara e concisa. Não importa se você é um iniciante completo ou tem alguma experiência com desenvolvimento web, este curso foi criado especificamente para você."
+    }
+  ],
+  "categorias": [
+    {
+      "id": "1",
+      "descricao": "Back end",
+      "cor": "#00C86F"
+    },
+    {
+      "id": "2",
+      "descricao": "Front end",
+      "cor": "#6BD1FF"
+    },
+    {
+      "id": "3",
+      "descricao": "Mobile",
+      "cor": "#FFBA05"
+    }
+  ]
+}

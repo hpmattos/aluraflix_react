@@ -1,0 +1,29 @@
+.header{
+    width: 100%;
+    border-top: 1px solid #2d6aa8;
+    box-shadow: -1px -1px 4px 2px #2d6aa8;
+    height: 5em;    
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;    
+}
+.logo{
+  left: 0;
+  padding: 0.3em;
+}
+
+.menu{
+   float: right; 
+
+}
+
+
+@media screen and (max-width: 500px) {
+  .header{
+      display: none;
+  }
+}
